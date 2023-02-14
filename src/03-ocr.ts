@@ -33,7 +33,7 @@ import {openai} from "./util/openai";
 // Expected output:
 // {
 //     gender: "F",
-//         constellation: "Scorpio",
+//     constellation: "Scorpio",
 //     personality: "INFP",
 //     bodyType: "little_fat",
 //     height: 163,
