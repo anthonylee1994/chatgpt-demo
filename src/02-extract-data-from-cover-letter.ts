@@ -25,7 +25,7 @@ ${coverLetter}
 ---
 
 Can you extract the data to the following JSON format?
-{name: string, age: number, skills: string[], jobTitle: string, company: string, recipient: string, yearExperience: number
+{name: string, age: number, skills: string[], jobTitle: string, company: string, recipient: string, yearExperience: number}
 
 Response:`,
         max_tokens: 300,
