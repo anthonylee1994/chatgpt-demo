@@ -3,9 +3,9 @@ import * as fs from "fs";
 
 (async () => {
     const response = await openai.createImageEdit(
-        fs.createReadStream("src/asset/bb-original.png") as any,
-        fs.createReadStream("src/asset/bb-mask.png") as any,
-        "A Japanese anime young cute girl",
+        fs.createReadStream("src/asset/alfred-original.png") as any,
+        fs.createReadStream("src/asset/alfred-mask.png") as any,
+        "Hand holding a minions",
         5,
         "1024x1024"
     );
