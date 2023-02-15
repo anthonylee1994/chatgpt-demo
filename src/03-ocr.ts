@@ -1,9 +1,10 @@
 import Tesseract from 'tesseract.js';
 import {openai} from "./util/openai";
+import * as fs from "fs";
 
 (async () => {
     const text = await Tesseract.recognize(
-        'https://na.cx/i/Xqii6hc.jpg',
+        fs.readFileSync('src/asset/intro.jpg'),
         'chi_tra',
     );
 
