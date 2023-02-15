@@ -31,6 +31,8 @@ import * as fs from "fs";
     console.log(response.data.choices[0].text);
 })();
 
+// Image -> Dirty Text Data -> Well-formatted Information
+
 // Expected output:
 // {
 //     gender: "F",

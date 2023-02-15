@@ -16,3 +16,5 @@ import {openai} from "./util/openai";
     console.table(selfHarm.data.results[0].categories)
     console.table(selfHarm.data.results[0].category_scores)
 })();
+
+// Dirty Text Data -> Analysis

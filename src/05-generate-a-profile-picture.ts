@@ -10,3 +10,5 @@ import {openai} from "./util/openai";
 
     console.log(response.data.data.map(x => x.url));
 })();
+
+// Dirty Text Data -> Image

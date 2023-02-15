@@ -34,6 +34,7 @@ Response:`,
     console.log(response.data.choices[0].text);
 })();
 
+// Dirty Text Data -> Well-formatted Information
 
 // Expected output:
 // {

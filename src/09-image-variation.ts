@@ -10,3 +10,5 @@ import * as fs from "fs";
 
     console.log(response.data)
 })();
+
+// Image -> Analysis -> Image

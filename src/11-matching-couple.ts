@@ -95,6 +95,8 @@ import {openai} from "./util/openai";
     console.log(response.data.choices[0].text);
 })();
 
+// Well-formatted Information -> Analysis
+
 // Expected output:
 // [
 //     {"male": "M001", "female": "F003", "reason": "They both live in Kwun Tong and like watching movies and reading books."},

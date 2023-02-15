@@ -12,3 +12,5 @@ import * as fs from "fs";
 
     console.log(response.data)
 })();
+
+// Image -> Dirty Text Data -> Image

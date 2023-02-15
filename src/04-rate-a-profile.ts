@@ -26,6 +26,8 @@ import {openai} from "./util/openai";
     console.log(response.data.choices[0].text);
 })();
 
+// Well-formatted Information -> Analysis
+
 // Expected output:
 // {
 //   "rate": 8,
