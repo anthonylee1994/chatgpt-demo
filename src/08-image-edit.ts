@@ -5,7 +5,7 @@ import * as fs from "fs";
     const response = await openai.createImageEdit(
         fs.createReadStream("src/asset/alfred-original.png") as any,
         fs.createReadStream("src/asset/alfred-mask.png") as any,
-        "Hand holding a minions",
+        'Holding a massive amount of gold bars',
         5,
         "1024x1024"
     );
