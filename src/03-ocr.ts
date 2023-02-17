@@ -8,10 +8,14 @@ import * as fs from "fs";
         'chi_tra',
     );
 
+    const intro = text.data.text.replace(/\n/g, '');
+
+    console.log(`OCR Response:\n${intro}`);
+
     const response = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: `Extract the data from the following intro:
-        ${text.data.text.replace(/\n/g, '')}
+        ${intro}
         
         Response in JSON Format with English:
         {
